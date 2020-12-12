@@ -1,0 +1,183 @@
+.meni {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #333;
+    color: red;
+    z-index: +1;
+    position: sticky;
+    top: 0%;
+
+}
+
+li {
+
+    float: left;
+    list-style-type: none;
+}
+
+li a {
+    display: block;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+
+i {
+    margin: 10px;
+}
+
+
+h2 {
+    color: red;
+}
+
+.roditelj {
+    display: flex;
+    height: auto;
+    background-image: url(picture/practice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.divLevo {
+    flex: 2;
+    color: white;
+    padding: 30px;
+
+    padding-left: 80px;
+    font-size: 20pt;
+}
+
+.divDesno {
+    flex: 2;
+    color: white;
+    padding: 30px;
+    align-self: flex-start;
+    margin: 1em;
+    align-content: center;
+
+
+}
+
+.divLevo form {
+    margin-top: 30px;
+}
+
+h3 {
+    color: red;
+}
+
+.divDesno iframe {
+    padding-bottom: 300px;
+}
+
+h4 {
+    color: white;
+    font-size: 20pt;
+}
+
+
+.footer1 {
+    background-color: rgb(29, 26, 26);
+    color: gray;
+    height: 300px;
+    position: relative;
+
+}
+
+.footer1 {
+    border: 3px solid red;
+
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+
+
+}
+
+.footer1 .informations i {
+    color: red;
+}
+
+
+
+.footer1 .informations .socialmedia a {
+    color: white;
+}
+
+.footer1 .informations .socialmedia a:hover {
+    color: blue;
+
+}
+
+
+
+
+.footer-bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+}
+
+
+h3 {
+    color: red;
+    font-size: 30px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #3B5998;
+    color: white;
+}
